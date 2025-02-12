@@ -130,7 +130,16 @@ p {
 }
 .my-future p {
   width: 900px;
+}
+.present-target {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
+}
+.present-target .description {
+  width: 800px;
+  margin-top: 10px;
+  margin-bottom: 30px;
 }
