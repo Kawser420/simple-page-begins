@@ -86,19 +86,19 @@
   line-height: 26px;
   letter-spacing: 0%;
   text-align: center;
-  width: 800px;
+  width: 900px;
 }
 
 .learn-code {
   position: static;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
   margin-bottom: 48px;
 }
 .code-title {
-  width: 400px;
+  width: 500px;
 }
 
 .code-title h2,
