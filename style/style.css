@@ -119,3 +119,18 @@ p {
   padding: 8px;
   border-radius: 5px;
 }
+.my-future {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 70px;
+  gap: 20px;
+}
+.my-future p {
+  width: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
