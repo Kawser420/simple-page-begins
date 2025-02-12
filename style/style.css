@@ -59,3 +59,63 @@
   border-radius: 8px;
   background: rgb(13, 19, 33);
 }
+.title-area {
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+.title-develop {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title-develop .title {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.title-develop .description {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  width: 800px;
+}
+
+.learn-code {
+  position: static;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 48px;
+}
+.code-title {
+  width: 400px;
+}
+
+.code-title h2,
+p {
+  margin-bottom: 13px;
+}
+.btn-learn {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: start;
+  box-sizing: border-box;
+  border: 1px solid rgb(13, 19, 33);
+  opacity: 0.7;
+  padding: 8px;
+  border-radius: 5px;
+}
